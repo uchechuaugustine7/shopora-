@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopora | Senegal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+      color: #222;
+    }
+    header {
+      background: #087f5b;
+      color: white;
+      padding: 22px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .search {
+      padding: 20px;
+      text-align: center;
+    }
+    .search input {
+      width: 90%;
+      max-width: 450px;
+      padding: 14px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      font-size: 16px;
+    }
+    .welcome {
+      padding: 20px;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      padding: 15px;
+    }
+    .product {
+      background: white;
+      padding: 18px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 2px 8px #ddd;
+    }
+    .product h3 {
+      color: #087f5b;
+    }
+    .product button {
+      background: #087f5b;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+    }
+    footer {
+      background: #087f5b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SHOPORA</h1>
+  <p>Your Trusted Online Store in Senegal</p>
+</header>
+
+<div class="search">
+  <input type="text" placeholder="Search products...">
+</div>
+
+<div class="welcome">
+  <h2>Welcome to Shopora!</h2>
+  <p>Quality products at affordable prices.</p>
+</div>
+
+<div class="products">
+  <div class="product">
+    <h3>Rice</h3>
+    <p>Quality rice available.</p>
+    <button>Order Now</button>
+  </div>
+
+  <div class="product">
+    <h3>Millet</h3>
+    <p>Fresh millet available.</p>
+    <button>Order Now</button>
+  </div>
+
+  <div class="product">
+    <h3>Golden Morn</h3>
+    <p>Available for purchase.</p>
+    <button>Order Now</button>
+  </div>
+
+  <div class="product">
+    <h3>Milo</h3>
+    <p>Available for purchase.</p>
+    <button>Order Now</button>
+  </div>
+</div>
+
+<footer>
+  <p>Shopora Senegal</p>
+  <p>Shopping made easy!</p>
+</footer>
+
+</body>
+</html>
